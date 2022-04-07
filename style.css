@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+     --black: #373737;
+     --pink1: #ec8a9d;
+     --pink2: #931c33;
+     --grey: rgb(245, 242, 239);
+}
+
+body{background-color: rgb(245, 242, 239); margin:0;font-family:'Lato';}
+
+.nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding:0 30px;
+     background-color: white;
+     position: sticky;
+}
+
+.nav ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.nav ul li{
+     list-style: none;
+     margin: 0 20px;
+}
+     
+.nav img{
+     width: auto;
+     height: 90px;
+}
+
+.nav a{text-decoration: none;
+color:var(--black);
+font-weight: 600;}
+
+.nav a:hover{ color:var(--pink1) ;}
+
+.container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10vh;
+}
+
+.container h1{
+     color: var(--black);
+     text-transform: uppercase;
+     display: flex;
+     flex-wrap: wrap;
+     width: 25vw;
+     text-align: center;
+     padding: 20px 0;
+}
+
+.btn{
+     background-color: var(--pink1);
+     font-family: 'Lato';
+     font-size: 20px;
+     border: none;
+     border-radius: 35px;
+     padding: 10px 20px;
+     margin-left:15px;
+     cursor: pointer;
+     color:white;
+}
+
+.btn2{
+     background-color: var(--pink1);
+     font-family: 'Lato';
+     font-size: 20px;
+     border: none;
+     border-radius: 35px;
+     padding: 7px 13px;
+     margin-left:15px;
+     cursor: pointer;
+     color:white;
+}
+
+.btn:hover, .btn2:hover{
+     background-color: var(--pink2);
+     border: 1px white solid;
+}
+
+.btn a, .btn2 a, .box2 a{
+     text-decoration: none;
+     color:white;
+}
+
+.box{
+     font-family: 'Lato';
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     background-color: var(--pink2);
+     padding: 30px 70px;
+     margin-bottom: 30px;
+     color: white;
+     border:none;
+     border-radius: 30px;
+}
+
+.box input{
+     font-size: 18px;
+     padding: 3px 0px 3px 10px;
+     border-radius: 30px;
+     border: 1px solid var(--pink1);
+}
+
+.titre{
+     background-color: var(--pink1);
+     width: 100%; 
+     padding: 3px 0px;
+}
+
+h2{
+     text-align: center;
+}
+
+h3{
+     padding-left: 30px;
+     color: white;
+}
+
+.container2{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10vh;
+     gap: 40px;
+}
+
+.box2{
+     font-family: 'Lato';
+     background-color: var(--pink2);
+     color: white;
+     border-radius: 50px;
+     width: 80%;
+     margin: auto;
+     padding: 10px 0;
+}
+
+.box2 a{
+     background-color: var(--pink1);
+     padding: 5px;
+     border-radius: 10px;
+}
+
+.contact{
+     background-color: white;
+     margin: 0;
+     padding: 15px 30px;
+}
+
+.contact li{
+     list-style: none;
+     line-height: 2rem;
+}
+.article img{
+     height: 200px;
+     width: auto;
+}
+
+.article{
+     background-color: white;
+     color: var(--black);
+     border: 1px solid var(--pink2);
+     text-align: center;
+}
+
+.ctn{
+     background-color: white;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding:5px;
+}
